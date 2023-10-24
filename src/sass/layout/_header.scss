@@ -1,0 +1,13 @@
+.header {
+    &__line {
+        background-color: $color-black;
+        .top {
+            width: 27.2rem;
+            height: .1rem;
+        }
+        .left {
+            width: 0.1rem;
+            height: 74.9rem;
+        }
+    }
+}
