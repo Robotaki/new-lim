@@ -1,2 +1,2 @@
 # new-lim
-Project Vladislav
+Владислав Бутурля
