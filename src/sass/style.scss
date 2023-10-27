@@ -15,10 +15,11 @@
 @import "base/utilities";
 // Компоненты
 @import "components/logotype";
-
+@import "components/tasks";
+// layout
 @import "layout/header";
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/navigation";
-
+//pages
 @import "pages/home";
