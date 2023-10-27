@@ -1,11 +1,11 @@
 .header {
     position: relative;
-    padding: 0 2.2rem 0 2.2rem;
+    padding: 0 1.9rem 0 4rem;
     &__line {
         background-color: $color-black;
     }
     &__line-top {
-        width: 27.2rem;
+        width: 76.2%;
         height: .05rem; 
     }
     &__line-left {
@@ -13,9 +13,47 @@
         top: 3.2rem;
         left: 2.2rem;
         width: .1rem;
-        height: 74.9rem;
+        height: 88.7%;
     }
-    &__box {
-        
+    &__description {
+        color: $color-black;
+        padding-top: 2.6rem;
+    }
+    &__text-head {
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 3.2rem;
+        width: 74.6%;
+        line-height: 91%;
+    }
+    &__text-head::after {
+        content: '';
+        display: block;
+        margin: 2.6rem 0 1.2rem;
+        width: 57.5%;
+        height: .3rem;
+        background-color: $color-black;
+    }
+    &__text-description {
+        font-family: $poiret-one;
+        font-size: 2rem;
+        font-weight: 400;
+        width: 95.7%;
+    }
+    &__link {
+        margin-top: 10rem;
+        display: inline-block;
+        float: right;
+        font-family: $play;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: $color-black;
+    }
+    &__link::after {
+        content: '';
+        display: block;
+        background: $color-black;
+        float: right;
+        width: 125.5%;
+        height: 0.1rem;
     }
 }
