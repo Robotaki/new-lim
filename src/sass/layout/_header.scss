@@ -40,24 +40,4 @@
         font-weight: 400;
         width: 95.7%;
     }
-    &__link-flex_right {
-        display: flex;
-        justify-content: end;
-    }
-    &__link {
-        margin-top: 10rem;
-        display: inline-block;
-        font-family: $play;
-        font-size: 1.6rem;
-        text-decoration: none;
-        color: $color-black;
-    }
-    &__link::after {
-        content: '';
-        display: block;
-        background: $color-black;
-        float: right;
-        width: 125.5%;
-        height: 0.1rem;
-    }
 }
