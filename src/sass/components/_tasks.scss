@@ -23,17 +23,17 @@
     &__item-line {
         margin-right: 1.4rem;
         background: $color-line-white;
-        width: .6rem;
+        width: 6px;
         height: 10.2rem;
     }
     &__item-number {
-        margin: -.7rem 0 2.55rem 0;
+        margin: 0 0 2.55rem 0;
         font-family: $play;
         font-size: 4rem;
         font-weight: 700;
         transform: rotate(-90deg);
         transform-origin: top 0px;
-        width: 30.4%;
+        width: 53px;
     }
     &__item-number_m {
         margin-top: 0;
