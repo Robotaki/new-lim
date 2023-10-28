@@ -61,3 +61,14 @@
         white-space: nowrap;
     }
 }
+.tasks__link-block {
+    padding-right: 1.1rem;
+    .tasks__link_white {
+        font-size: 2.4rem;
+        color: $color-white;
+    }
+    .tasks__link_white::after {
+        margin-top: .9rem;
+        background: $color-line-white;
+    }
+}
