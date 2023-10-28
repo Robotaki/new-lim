@@ -1,0 +1,25 @@
+.title-ideas {
+    padding-left: 4rem;
+    font-size: 1.3rem;
+    color: $color-black;
+    width: 70.7%;
+}
+.title-ideas::after {
+    margin-left: -4rem;
+    background: $color-line-black;
+    width: 77.4%;
+}
+.ideas {
+    position: relative;
+    &__pharces {
+        span:first-child {
+            font-size: 3.6rem;
+        }
+        span:last-child {
+            color: $color-gray;
+        }
+    }
+    &__text {
+        
+    }
+}
