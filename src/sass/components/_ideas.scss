@@ -29,6 +29,7 @@
             text-transform: uppercase;
         }
     }
+    
     &__phraces_left {
         top: 3.6rem;
         right: 0;
@@ -38,6 +39,12 @@
         span:last-child {
             font-size: 4rem;
         }
+    }
+    &__phraces_t {
+        top: 6rem;
+    }
+    &__phraces_t82px {
+        top: 8.2rem;
     }
     &__phraces_top {
         top: 5.4rem;
@@ -62,6 +69,9 @@
     &__width-276px {
         width: 276px;
     }
+    &__text_w233px {
+        width: 217px;
+    }
     &__width-220px {
         width: 220px;
     }
@@ -71,11 +81,30 @@
         width: 0.4rem;
         background: $color-line-black;
     }
+    &__height-201px {
+        height: 20.1rem;
+    }
+    &__height-180px {
+        height: 18rem;
+    }
     &__height-160px {
         height: 16rem;
     }
     &__height-173px {
         height: 16rem;
+    }
+    &__lists {
+        display: flex;
+        width: 30rem;
+        margin: 0 auto;
+    }
+    &__list {
+        font-size: 2rem;
+        line-height: 122%;
+        margin-right: 5.1rem;
+    }
+    &__list:last-child {
+        margin-right: 0;
     }
 }
 .ideas_pb47px {
