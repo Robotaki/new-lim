@@ -1,0 +1,45 @@
+.deeper {
+    &__body {
+        display: flex;
+        align-items: center;
+        padding: 3.2rem 1rem;
+        background: rgba(0, 0, 0, 1);
+    }
+    &__title {
+        font-family: serif; // нужен шрифт impact
+        font-size: 45px;
+        color: #fff;
+        margin-right: .7rem;
+        width: 185px;
+        text-align: right;
+        line-height: 97%;
+        background: linear-gradient(118deg, rgba(255, 255, 255, 0.90) 9.9%, rgba(255, 255, 255, 0.00) 111.18%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__content {
+        width: 171px;
+    }
+    &__text {
+        font-family: $play;
+        color: $color-white;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    &__text:last-child{
+        margin-bottom: 0;
+    }
+    &__text-bottom {
+        font-family: $play;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 4.2rem 0 3.2rem 2.1rem;
+        width: 79%;
+    }
+    &__line {
+        width: 81%;
+        height: 1px;
+        background: #000;
+    }
+}
